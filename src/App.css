@@ -1,0 +1,72 @@
+/*  CABEZA */
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+header{
+  display: flex;
+  min-height: 70;
+  background-color:#fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.titulo{
+  display: flex;
+  align-items: center;
+}
+.pasajeros{
+  display: flex;
+  align-items: center; 
+}
+/*  TABLA */
+
+.tabla {
+  width: 80%; /* Puedes ajustar el ancho del contenedor según tus preferencias */
+  margin: 20px auto; /* Centrar el contenedor con un margen superior e inferior de 20px */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+button {
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px
+}
+
+button:hover {
+  background-color: #2E7D32;
+}
+/*  cuadro asignación */
+.asignación{
+  padding: 1px 4px;
+  cursor: pointer;
+  background-color: #2E7D32;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*  Boton volver */
+.volver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media (max-width:700px){
+  header{
+      flex-direction: column;
+      
+  }
+
+}
