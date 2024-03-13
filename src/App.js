@@ -5,6 +5,8 @@ import './App.css';
 const datosIniciales = [
   { numeroPasajero: "1", nombre: 'Juan Pablo Castro', asiento: '', especificaciones: 'No Asignado' },
   { numeroPasajero: "2", nombre: 'Jhon Alejandro Garcia', asiento: '', especificaciones: 'No Asignado' },
+  { numeroPasajero: "3", nombre: 'David Camilo Garcia', asiento: '', especificaciones: 'No Asignado' },
+  { numeroPasajero: "4", nombre: 'Jose Andres Echavarria', asiento: '', especificaciones: 'No Asignado' }
 ];
 
 const App = () => {
